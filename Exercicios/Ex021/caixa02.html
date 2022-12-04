@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font: 16px arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+            margin: 3px;
+            
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-style: double;
+            border-color: blueviolet;
+        
+        }
+        nav{
+            background-color: blue;
+            border-radius: 4px;
+            
+        }
+        nav>a{
+            color:  aquamarine;
+            padding: 3px;
+            margin: 3px;
+           
+           
+            text-decoration: none;
+        }
+        nav>a:hover{
+            text-decoration:underline;
+            color: brown;
+            
+        }
+        article#caixa{
+            background-color: beige;
+            width: 400px;
+            margin: auto;
+            padding: 1px 10px;
+            box-shadow:3px 5px 4px black;
+            border-radius: 10px;
+            border-style:none;
+            
+        }
+        .movi{
+            color: green;
+        }
+        article{
+            background-color: aqua;
+            margin:30px;
+            padding: 10px;
+            border-radius: 10px;
+            border-style: double;
+            
+        }
+        main{
+            background-color: brown;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 30px 10px;
+        }
+        article>aside{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 3px;
+            border-radius: 7px;
+        }
+
+        footer>p{
+            text-align: center;
+            padding: 4px;
+            background-color: black;
+            color: white;
+            margin:0px;
+            border: 1px;
+        }
+        footer>p{
+            margin:0px;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article id="caixa">
+                <p class="movi">Esse texto está na parte do id "caixa"</p>
+                <h2>Titulo</h2>
+                <p>Texto do artigo</p>
+            </article>
+            <article>
+                <h2>Título 02</h2>
+                <p>Texto do artigo 02</p>
+                <aside>
+                    Conteúdo periférico do artigo
+                </aside>
+            </article>
+        </section>
+        <aside>
+            Conteúdo periférico do site
+        </aside>
+        
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+    
+    
+    
+</body>
+</html>
